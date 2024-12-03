@@ -1,4 +1,8 @@
 # Merge-Multiple-FLAC-files-
+
+Use case: source files are numerous (often one per chapter)
+Known Issues (you may find challenges finding a vendor who will accept large files over a specific size)
+
 FLAC Merge and Metadata Adjustment Script
 This project is designed to merge multiple FLAC files into a single file, ensuring the correct metadata and total duration are maintained. The process involves re-encoding the FLAC files to WAV format, merging them, and then converting back to FLAC format.
 
