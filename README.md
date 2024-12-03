@@ -10,16 +10,18 @@ ffmpeg
 mutagen
 
 Installation
-Before running the script, make sure you have the required dependencies installed:
+**Before running the script**, make sure you have the required dependencies installed:
 
 sh
 sudo apt-get update
 sudo apt-get install ffmpeg
 pip3 install mutagen
-Configuration
+
+
+**Configuration**
 Create a config.yaml file with the following structure:
 
-yaml
+**yaml**
 source_folder: "./input"
 output_folder: "./output"
 output_filename: "merged_file.flac"
@@ -29,14 +31,14 @@ output_folder: Path to the folder where the output file will be saved.
 
 output_filename: Name of the merged output file.
 
-Usage
+**Usage**
 Ensure the config.yaml file is correctly configured with the source and output folders.
-
 Ensure the necessary permissions for the directories you're working with:
 
-sh
-sudo chmod -R 777 /path/to/source/folder
+recommended sh
+**sudo chmod -R 777 /path/to/source/folder
 sudo chmod -R 777 /path/to/output/folder
+**
 Run the Python script using the following command with sudo to ensure it has the necessary permissions:
 
 sh
